@@ -83,7 +83,7 @@ const myFunction20 = (a: number) => {
 
 const myFunction21 = (x: number, y: number) => {
   if (x % y === 0) return x;
-  for (let i = x; i < x + y; i++) {
+  for (let i = x; i <= x + y; i++) {
     if (i % y === 0) return i;
   }
 };
